@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [03/Jan/2023:18:02:28 +0530] "GET /index.html HTTP/1.1" 304 - http-bio-9090-exec-1 15
+0:0:0:0:0:0:0:1 - - [03/Jan/2023:18:02:33 +0530] "GET /servlet/DownloadServlet HTTP/1.1" 200 9 http-bio-9090-exec-2 9
