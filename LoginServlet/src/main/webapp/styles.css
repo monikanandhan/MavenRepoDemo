@@ -1,0 +1,66 @@
+#div1
+{
+    background-color:lightskyblue;
+    height:30px;
+    width:100vw;
+}
+#div2
+{
+    padding-left:150px;
+}
+#ts
+{
+    width:75vw;
+    height:5vh;
+}
+#at
+{
+    width:75vw;
+    height:5vh;
+}
+#ad
+{
+    width:75vw;
+    height:5vh;
+   
+}
+#as
+{
+    width:75vw;
+    height:5vh;
+}
+#score
+{
+    width:75vw;
+    height:5vh;
+}
+#remarks
+{
+    width:75vw;
+    height:5vh;
+}
+#url
+{
+    width:75vw;
+    height:5vh;
+}
+#ab
+{
+    width:75vw;
+    height:5vh;
+}
+#bt2
+{
+    background-color: lightgreen;
+    color:white;
+    margin-left: 1000px;
+    height:35px;
+    width:75px;
+}
+#bt1
+{
+    background-color: red;
+    color:white; 
+    height:35px;
+    width:75px;
+}
