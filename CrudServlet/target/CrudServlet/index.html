@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+<div id="div1">
+    <h3>Score card</h3>
+</div><br><br>
+<div id="div2">
+    <form action="servlet2" method="post">
+Technical Skill:
+<select name="TechnicalSkill" id="ts" placeholder="Technical Skill">
+    <option>Java</option>
+    <option>JavaScript</option>
+    <option>DotNet</option>
+    </select><br><br>
+    Assesment Type:
+    <select name="AssesmentType" id="at" placeholder="Assessment Type">
+    <option>Self-Learning</option>
+    <option>Learning-practice</option>
+    <option>coding-test</option>
+</select><br><br>
+Assesment Description:<input type="text" placeholder="Assessment Description" name="AssesmentDescription" id="ad"><br><br>
+Assesment Date:<input type="date" name="AssesmentDate" placeholder="Assessment Date" id="as"><br><br>
+Score:<input type="text" name="score" id="score" placeholder="Score"><br><br>
+Remarks:<input type="text" name="Remarks" id="remarks" placeholder="Remarks"><br><br>
+URL:<textarea id="url" name="url" placeholder="URL"></textarea><br><br>
+Assesment By:<select name="AssesmentBy" id="ab" placeholder="Assessment By">
+<option>Pamila</option>
+<option>Baranee</option>
+<option>Bala</option>
+</select><br><br><br><br>
+<button id="bt1" >Cancel</button>
+<button  id="bt2" >Save</button>
+<button id="bt3">Update</button>
+</form>
+</div>
+</body>
+</html>
