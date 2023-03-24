@@ -1,0 +1,29 @@
+<web-app>
+   <security-constraint>
+      <web-resource-collection>
+         <url-pattern>/secured/*</url-pattern>
+         <http-method>GET</http-method>
+         <http-method>POST</http-method>
+      </web-resource-collection>
+      
+      <auth-constraint>
+         <description>
+            Let only managers use this app
+         </description>
+         <role-name>employee</role-name>
+      </auth-constraint>
+   </security-constraint>
+   
+   <security-role>
+      <role-name>employee</role-name>
+   </security-role>
+   
+   <login-config>
+	<auth-method>FORM</auth-method>
+	<form-login-config>
+		<form-login-page>/Login.html</form-login-page>
+		<form-error-page>/error.jsp</form-error-page>
+	</form-login-config>
+</login-config>
+   
+</web-app>
