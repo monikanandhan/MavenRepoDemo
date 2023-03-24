@@ -1,0 +1,1 @@
+insert into employee(id, name, marks) values(2,'sandhiya',100);
